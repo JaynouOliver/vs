@@ -1,4 +1,7 @@
 import { IntegrationForm } from './integration-form';
+import { HubspotIntegration } from './integrations/hubspot';
+
+const integrationOptions = ['Airtable', 'Notion', 'Hubspot'];
 
 function App() {
   return (
